@@ -14,10 +14,11 @@ let weather = {
         const {icon,description} = data.weather[0];
         const {temp, humidity} = data.main;
         console.log(name,icon,description,temp,humidity)
-        document.querySelector(".city").innertext = `Weather in` + name;
-        document.querySelector(".description").innertext = description
-        document.querySelector(".temp").innertext = temp + "°C"
-        document.querySelector(".humidity").innertext = "humidity:" + humidity + "%"
+        document.querySelector(".city").innerText = `Weather in ` + name;
+        document.querySelector(".description").innerText = description
+        document.querySelector(".temp").innerText = temp + "°C"
+        document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%"
+        // document.querySelector(".icon").src = 
 
 
     },
@@ -31,3 +32,4 @@ let weather = {
 document.querySelector(".search button").addEventListener("click", () => {
     weather.search()
 })
+
