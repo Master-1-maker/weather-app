@@ -7,4 +7,4 @@ note:
 this project was intended to be a practice on using APIs 
 (openweatherapp was the api used)
 
-📍 Live preview link 📍: 
+📍 Live preview link 📍: https://master-1-maker.github.io/weather-app/
